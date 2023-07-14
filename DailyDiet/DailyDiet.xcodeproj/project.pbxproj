@@ -12,6 +12,7 @@
 		B189589C2A5CBEB50024651C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B189589B2A5CBEB50024651C /* Assets.xcassets */; };
 		B189589F2A5CBEB50024651C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B189589E2A5CBEB50024651C /* Preview Assets.xcassets */; };
 		B18958A72A5CC0C00024651C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18958A62A5CC0C00024651C /* Color.swift */; };
+		B1DCAAED2A61D2E700AB7882 /* DDMealsWithinTheDietVCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DCAAEC2A61D2E700AB7882 /* DDMealsWithinTheDietVCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		B189589B2A5CBEB50024651C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B189589E2A5CBEB50024651C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B18958A62A5CC0C00024651C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		B1DCAAEC2A61D2E700AB7882 /* DDMealsWithinTheDietVCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDMealsWithinTheDietVCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		B18958962A5CBEB20024651C /* DailyDiet */ = {
 			isa = PBXGroup;
 			children = (
+				B1DCAAEA2A61D28C00AB7882 /* Components */,
 				B18958A92A5CC2240024651C /* Resources */,
 				B18958A82A5CC2160024651C /* View */,
 				B18958A52A5CC0B20024651C /* Extensions */,
@@ -100,6 +103,14 @@
 				B18958972A5CBEB20024651C /* DailyDietApp.swift */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		B1DCAAEA2A61D28C00AB7882 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1DCAAEC2A61D2E700AB7882 /* DDMealsWithinTheDietVCard.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 			files = (
 				B189589A2A5CBEB20024651C /* HomeView.swift in Sources */,
 				B18958982A5CBEB20024651C /* DailyDietApp.swift in Sources */,
+				B1DCAAED2A61D2E700AB7882 /* DDMealsWithinTheDietVCard.swift in Sources */,
 				B18958A72A5CC0C00024651C /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
